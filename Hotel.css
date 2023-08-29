@@ -1,0 +1,163 @@
+body {
+    background-image: url("hotel.png");
+    background-size: 100% 100%;
+}
+
+.left {
+    /* border: 2px solid rgb(241, 3, 42); */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font: bolder;
+    color: rgb(9, 1, 0);
+
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    font-size: 22px;
+    font-weight: 60px;
+    font: bolder;
+    text-align: center;
+}
+
+.mid {
+    /* border: 2px solid rgb(248, 248, 250); */
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(241 170 14 / 45%);
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    /* color: aliceblue; */
+    text-decoration: none;
+    padding: 10px;
+    color: #f40c46;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(167, 6, 254);
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    /* border: 2px solid rgb(246, 248, 246); */
+    display: inline-block;
+    top: 20px;
+}
+
+.btn {
+    margin: 0px, 9px;
+    background-color: #000000;
+    color: rgb(249, 248, 248);
+    padding: 5px;
+    /* border:2px solid gray; */
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Belanosima;
+}
+
+.btn:hover {
+    background-color: rgb(103, 100, 110);
+}
+
+
+.container {
+    color: rgb(253, 252, 252);
+    width: 450px;
+    margin: 53px 450px;
+    padding: 61px 61px;
+    border: 5px solid rgba(106, 101, 101, 0.568);
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgba(227, 158, 54, 0.5);
+    opacity: 5;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+
+
+}
+
+input[type="submit"] {
+    background-color: #19d41f;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #e3290d;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[readonly] {
+    background-color: #eee;
+    cursor: not-allowed;
+}
